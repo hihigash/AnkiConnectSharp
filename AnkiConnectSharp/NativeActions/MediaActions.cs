@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace AnkiConnectSharp.NativeActions
 {
+    /// <summary>
+    /// Media actions
+    /// </summary>
+    /// <see cref="https://foosoft.net/projects/anki-connect/index.html#media-actions"/>"/>
     internal static class MediaActions
     {
         public static void StoreMediaFile()

@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace AnkiConnectSharp.NativeActions
 {
+    /// <summary>
+    /// Graphical actions
+    /// </summary>
+    /// <see cref="https://foosoft.net/projects/anki-connect/index.html#graphical-actions"/>
     internal static class GraphicalActions
     {
         public static void GuiBrowse()

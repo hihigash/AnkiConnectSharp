@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 
 namespace AnkiConnectSharp.NativeActions
 {
+    /// <summary>
+    /// Desk actions
+    /// </summary>
+    /// <see cref="https://foosoft.net/projects/anki-connect/index.html#deck-actions"/>"/>
     internal static class DeskActions
     {
         public static JsonDocument DeckNames(HttpClient client)

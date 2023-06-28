@@ -2,6 +2,10 @@
 
 namespace AnkiConnectSharp.NativeActions
 {
+    /// <summary>
+    /// Card actions
+    /// </summary>
+    /// <see cref="https://foosoft.net/projects/anki-connect/index.html#card-actions"/>
     internal static class CardActions
     {
         public static void GetEaseFactors()

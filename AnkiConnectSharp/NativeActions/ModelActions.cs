@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace AnkiConnectSharp.NativeActions
 {
+    /// <summary>
+    /// Model actions
+    /// </summary>
+    /// <see cref="https://foosoft.net/projects/anki-connect/index.html#model-actions"/>
     internal static class ModelActions
     {
         public static void ModelNames()

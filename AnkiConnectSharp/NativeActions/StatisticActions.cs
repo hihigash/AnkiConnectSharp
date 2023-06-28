@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace AnkiConnectSharp.NativeActions
 {
+    /// <summary>
+    /// Statistic actions
+    /// </summary>
+    /// <see cref="https://foosoft.net/projects/anki-connect/index.html#statistic-actions"/>
     internal static class StatisticActions
     {
         public static void GetNumCardsReviewedToday()

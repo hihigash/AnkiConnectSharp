@@ -28,13 +28,13 @@ namespace AnkiConnectSharp
 
         public decimal AddNote(string front, string back)
         {
-            var json = NativeActions.NoteActions.AddNote(AnkiConnect._httpClient, Name, front, back);
+            var json = NativeActions.NoteActions.AddNote(AnkiConnect.HttpClient, Name, front, back);
             return json.RootElement.GetProperty("result").GetDecimal();
         }
 
         public void DeleteNotes(decimal[] noteIds)
         {
-            NativeActions.NoteActions.DeleteNotes(AnkiConnect._httpClient, noteIds);
+            NativeActions.NoteActions.DeleteNotes(AnkiConnect.HttpClient, noteIds);
         }
     }
 }

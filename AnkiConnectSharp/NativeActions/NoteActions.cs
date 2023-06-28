@@ -22,6 +22,10 @@ namespace AnkiConnectSharp.NativeActions
         }
     }
 
+    /// <summary>
+    /// Note actions
+    /// </summary>
+    /// <see cref="https://foosoft.net/projects/anki-connect/index.html#note-actions"/>
     internal static class NoteActions
     {
         public static JsonDocument AddNote(HttpClient client, string deckName, string front, string back)

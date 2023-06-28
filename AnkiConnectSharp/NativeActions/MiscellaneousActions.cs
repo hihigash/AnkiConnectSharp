@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 
 namespace AnkiConnectSharp.NativeActions
 {
+    /// <summary>
+    /// Miscellaneous actions
+    /// </summary>
+    /// <see cref="https://foosoft.net/projects/anki-connect/index.html#miscellaneous-actions"/>
     internal static class MiscellaneousActions
     {
         public static void RequestPermission()
