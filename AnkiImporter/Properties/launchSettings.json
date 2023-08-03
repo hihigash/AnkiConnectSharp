@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AnkiImporter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\hihigash\\Desktop\\OriginalData.csv\""
+    }
+  }
+}

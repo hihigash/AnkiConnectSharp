@@ -26,9 +26,9 @@ namespace AnkiConnectSharp
 
         public string Name { get; }
 
-        public decimal AddNote(string front, string back)
+        public decimal AddNote(string front, string back, string[] tags)
         {
-            var json = NativeActions.NoteActions.AddNote(AnkiConnect.HttpClient, Name, front, back);
+            var json = NativeActions.NoteActions.AddNote(AnkiConnect.HttpClient, Name, front, back, tags);
             return json.RootElement.GetProperty("result").GetDecimal();
         }
 

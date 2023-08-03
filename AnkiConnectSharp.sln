@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnkiConnectSharp", "AnkiConnectSharp\AnkiConnectSharp.csproj", "{E3DE47CC-B9FA-4798-986E-7CFAFFD935FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnkiConnectSharp.Tests", "AnkiConnectSharp.Tests\AnkiConnectSharp.Tests.csproj", "{5993AE7B-AF0B-474E-BAAB-CC461F3AF926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnkiConnectSharp.Tests", "AnkiConnectSharp.Tests\AnkiConnectSharp.Tests.csproj", "{5993AE7B-AF0B-474E-BAAB-CC461F3AF926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnkiImporter", "AnkiImporter\AnkiImporter.csproj", "{B4E2D187-AB74-4E5D-BE61-651E407038EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5993AE7B-AF0B-474E-BAAB-CC461F3AF926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5993AE7B-AF0B-474E-BAAB-CC461F3AF926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5993AE7B-AF0B-474E-BAAB-CC461F3AF926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E2D187-AB74-4E5D-BE61-651E407038EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E2D187-AB74-4E5D-BE61-651E407038EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E2D187-AB74-4E5D-BE61-651E407038EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E2D187-AB74-4E5D-BE61-651E407038EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -23,7 +23,7 @@ namespace AnkiConnectSharp.Tests
         {
             AnkiConnect ankiConnect = new AnkiConnect(new Uri("http://localhost:8765"));
             var docks = ankiConnect.GetDecksOfCurrentUser();
-            var noteId = docks[1].AddNote("front", "back");
+            var noteId = docks[1].AddNote("front", "back", new[] { "tag1", "tag2" });
             noteId.Should().NotBe(0);
 
             docks[1].DeleteNotes(new decimal[] { noteId });

@@ -28,7 +28,7 @@ namespace AnkiConnectSharp.NativeActions
     /// <see cref="https://foosoft.net/projects/anki-connect/index.html#note-actions"/>
     internal static class NoteActions
     {
-        public static JsonDocument AddNote(HttpClient client, string deckName, string front, string back)
+        public static JsonDocument AddNote(HttpClient client, string deckName, string front, string back, string[] tags)
         {
             var request = new
             {
@@ -44,7 +44,8 @@ namespace AnkiConnectSharp.NativeActions
                         {
                             Front = front,
                             Back = back
-                        }
+                        },
+                        tags = tags
                     }
                 }
             };
